@@ -17,3 +17,19 @@ nav li a {
       font-size: 20px;
       color: black;
 }
+
+.dropdown {
+      display: none;
+      position: absolute;
+      background-color: yellow;
+      padding: 0;
+}
+
+.dropdown li {
+      padding: 0 20px;
+      margin: 0;
+}
+
+nav>ul>li:hover>ul {
+      display: block;
+}
